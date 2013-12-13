@@ -46,6 +46,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'machinist', '>= 2.0.0.beta2'
+  gem 'rake'
 end
 
 group :doc do
