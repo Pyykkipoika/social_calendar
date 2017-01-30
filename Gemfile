@@ -48,7 +48,10 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'machinist', '>= 2.0.0.beta2'
+  gem 'rake'
 end
+
+gem 'simplecov', :require => false, :group => :test
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
